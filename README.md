@@ -38,3 +38,41 @@ Con el programa MatrizOrtogonal, podrás gestionar de manera eficiente una matri
 ![1 3](https://github.com/DannyFlores27/MatrizOrtogonal/assets/126033449/8ea8adbd-fb07-45e6-84b7-783bc1591a14)
 ![1 4](https://github.com/DannyFlores27/MatrizOrtogonal/assets/126033449/eaeaa8a9-da39-4a27-b1a3-5b8b3b37ab7d)
 ![1 5](https://github.com/DannyFlores27/MatrizOrtogonal/assets/126033449/a50aef9c-db9a-48e3-b9d9-1d3a22543332)
+
+Manual Técnico - Matriz Ortogonal
+Descripción
+El programa MatrizOrtogonal es una aplicación Java que implementa una matriz ortogonal para gestionar vehículos. Proporciona funcionalidades para ingresar, buscar, eliminar y mostrar vehículos almacenados en la matriz.
+
+Estructura del Proyecto
+El proyecto está organizado en los siguientes paquetes y clases:
+
+Paquete programacioniii.matrizortogonal
+MatrizOrtogonal.java: Clase principal que contiene el método main para iniciar la aplicación.
+Paquete programacioniii.matrizortogonal.logica
+MatrizDinamica.java: Clase que representa la matriz ortogonal y proporciona métodos para operar con ella.
+Nodo.java: Clase que define un nodo para almacenar un vehículo en la matriz.
+Vehiculo.java: Clase que representa un vehículo con sus atributos.
+Requisitos del Sistema
+Java Development Kit (JDK): Se requiere JDK 8 o superior para compilar y ejecutar el programa.
+Entorno de Desarrollo Integrado (IDE): Se recomienda el uso de una IDE como IntelliJ IDEA, Eclipse o NetBeans para facilitar el desarrollo y la ejecución del programa.
+Compilación y Ejecución
+Para compilar y ejecutar el programa desde una IDE:
+
+Abre tu IDE preferida.
+Importa el proyecto o crea uno nuevo.
+Ubica el archivo MatrizOrtogonal.java en el paquete programacioniii.matrizortogonal.
+Compila el proyecto.
+Ejecuta la clase MatrizOrtogonal.
+Funcionalidades Principales
+El programa MatrizOrtogonal proporciona las siguientes funcionalidades principales:
+
+Ingresar Vehículo: Permite al usuario ingresar los datos de un nuevo vehículo y almacenarlo en la matriz en una posición específica o aleatoria.
+Buscar Vehículo: Permite buscar un vehículo en la matriz según un criterio especificado (placa, color, línea, modelo o propietario).
+Eliminar Vehículo: Permite eliminar un vehículo de la matriz, ya sea por posición o por placa.
+Mostrar Vehículos: Muestra todos los vehículos almacenados en la matriz.
+Notas Adicionales
+El programa utiliza la clase Scanner para la entrada de datos desde la consola.
+Las posiciones de fila y columna en la matriz se indexan desde 1 hasta el número máximo especificado.
+Se manejan excepciones para validar la entrada de datos y evitar errores durante la ejecución.
+Contribuciones
+¡Las contribuciones al proyecto son bienvenidas! Si deseas contribuir, puedes enviar solicitudes de extracción (pull requests) a nuestro repositorio en GitHub.
